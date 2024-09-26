@@ -36,7 +36,7 @@ class _WeatherInfoState extends State<WeatherInfo> {
       _cityName = _cityController.text;
 
       // Generate random temperature and weather condition
-      _temperature = '${Random().nextInt(16) + 15}°C'; // Random between 15°C and 30°C
+      _temperature = '${Random().nextInt(70) + 30}°C'; // Random between 30°C and 100°C
       _weatherCondition = ['Sunny', 'Cloudy', 'Rainy'][Random().nextInt(3)];
     });
   }
